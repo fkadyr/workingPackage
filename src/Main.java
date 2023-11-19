@@ -4,11 +4,11 @@ import quadraticequation.QuadraticEquation;
 public class Main{
 	public static void main(String[] args){
 		Scanner scanner = new Scanner(System.in);
-                System.out.println("Введите коэфициент a ");
+                System.out.println("Р’РІРµРґРёС‚Рµ РєРѕСЌС„РёС†РёРµРЅС‚ a ");
         	int a = scanner.nextInt();
-        	System.out.println("Введите коэфициент b ");
+                System.out.println("Р’РІРµРґРёС‚Рµ РєРѕСЌС„РёС†РёРµРЅС‚ b ");
         	int b = scanner.nextInt();
-        	System.out.println("Введите коэфициент c ");
+                System.out.println("Р’РІРµРґРёС‚Рµ РєРѕСЌС„РёС†РёРµРЅС‚ c ");
         	int c = scanner.nextInt();
 
         	QuadraticEquation equation = new QuadraticEquation(a, b, c);

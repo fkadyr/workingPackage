@@ -12,7 +12,7 @@ public class Discriminant{
         	} else if (D == 0) {
            		System.out.println("x = " + (-b/(2*a)));
         	} else {
-            		System.out.println("Корней нет...");
+            		System.out.println("РљРѕСЂРЅРµР№ РЅРµС‚...");
         	}
     	}	
 }
